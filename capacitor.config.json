@@ -1,0 +1,5 @@
+{
+  "appId": "nuxt.app",
+  "appName": "ino-app",
+  "webDir": "dist"
+}
