@@ -8,13 +8,21 @@
     <IonContent class="ion-padding">
       <IonButton router-link="/about">About Page</IonButton>
       <div>
-        <button class="bg-green-500 py-2 px-4 rounded-md" @click="doUserLogout">
+        <button class="bg-green-500 py-2 px-4 rounded-md" >
           LOGOUT USER
         </button>
       </div>
       <div>
-        {{ data?.user?.email }}
+
       </div>
     </IonContent>
   </IonPage>
 </template>
+
+<script>
+
+
+
+
+
+</script>
