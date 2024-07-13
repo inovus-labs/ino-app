@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css'
   },
+  css: [
+    '@/assets/css/main.css'
+  ],
   shadcn: {
     /**
      * Prefix for all the imported component
