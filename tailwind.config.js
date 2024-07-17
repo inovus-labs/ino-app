@@ -82,5 +82,11 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [
+    animate,
+    require('flowbite/plugin'),
+  ],
+  content: [
+    "./node_modules/flowbite/**/*.js"
+]
 }
