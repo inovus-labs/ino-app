@@ -1,28 +1,22 @@
 <template>
-  <IonPage>
-    <IonHeader>
-      <IonToolbar>
-        <IonTitle>Index Page</IonTitle>
-      </IonToolbar>
-    </IonHeader>
-    <IonContent class="ion-padding">
-      <IonButton router-link="/about">About Page</IonButton>
-      <div>
-        <button class="bg-green-500 py-2 px-4 rounded-md" >
-          LOGOUT USER
-        </button>
-      </div>
-      <div>
-
-      </div>
-    </IonContent>
-  </IonPage>
+  <!-- <splashscreen /> -->
+  <!-- <loginView /> -->
+   <forgotPassword />
 </template>
-
 <script>
+import splashscreen from '../components/splashscreen.vue'
+import loginView from '~/components/enroll/loginView.vue'
+import forgotPassword from '~/components/enroll/forgotPassword.vue';
 
-
-
-
-
+export default{
+  name: 'Home',
+  components: {
+    splashscreen,
+    loginView,
+    forgotPassword,
+  },
+}
 </script>
+<style>
+
+</style>
